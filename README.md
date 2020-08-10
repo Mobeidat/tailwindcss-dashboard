@@ -1,4 +1,4 @@
-# UI assignment
+# UI Dashboard
 
 To get started, clone the project and install the dependencies:
 
