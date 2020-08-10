@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply leading-normal bg-white
+}
+
+a {
+  @apply text-primary no-underline
+}
+
+p {
+  @apply mt-6
+}
+
+h2 {
+  @apply mb-3
+}
+
+h3 {
+  @apply my-8
+}
+
+h4 {
+  @apply tracking-wide
+}
+
+h5 {
+  @apply tracking-wide
+}
+
+/* Two horizontal cards in the dashboard page height */
+.highlighted-stats-card {
+  height: calc(50% - 16px);
+  @apply items-center;
+}
+
+/* Swiper JS pullets custom colors */
+.swiper-pagination-bullet {
+  background:#8094AE;
+  opacity:1;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background:#364A63;
+}
+
